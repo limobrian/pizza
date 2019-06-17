@@ -46,4 +46,11 @@ select {
   tr:nth-child(odd){
     background: rgb(231, 229, 80);
   }
-  
+  #del{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 32%;
+  }
+  #t{
+    margin-left: 32%;
+  }
