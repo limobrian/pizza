@@ -2,119 +2,132 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel='icon' href="../image/icon.svg">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.4.1.js"
-        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel='icon' href="../image/icon.svg">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
 
-    <title>limz pizza</title>
+  <title>limz pizza</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col text-center" id="img">
-                <h1 class="h">WELCOME</h1>
-                <h1 class="f">TO LIMZ PIZZA</h1>
-                <p>we have an amazing place to enjoy pizza.
+  <div class="container">
+    <div class="row">
+      <div class="col text-center" id="img">
+        <h1 class="h">WELCOME</h1>
+        <h1 class="f">TO LIMZ PIZZA</h1>
+        <p>we have an amazing place to enjoy pizza.
 
-                    <h3>ABOUT US</h3>
-                    <p> limz Pizza is locally <br>
-                        owned and operated by limooh and tj.<br>
-                         we have been in the pizza making business <br>
-                        for over 10 years. You can try some of the best<br>
-                         pizza in town or try our famous wet<br>
-                        burritos!
+          <h3>ABOUT US</h3>
+          <p> limz Pizza is locally <br>
+            owned and operated by limooh and tj.<br>
+            we have been in the pizza making business <br>
+            for over 10 years. You can try some of the best<br>
+            pizza in town or try our famous wet<br>
+            burritos!
 
-                        We know you will absolutely love your food and friendly service!
+            We know you will absolutely love your food and friendly service!
 
-                    </p>
+          </p>
 
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-4">
-        <select name="size" id="size" onchange="update()">
-                <option value="0">Choose size</option>
-                <option value="500">Small</option>
-                <option value="900">Medium</option>
-                <option value="1200">Large</option>
-              </select>
-            </div>
-            <div class="col-4">
-              <select name="topping" id="topping" onchange="update()">
-                <option value="0">Choose Topping</option>
-                <option value="50"></option>
-                <option value="0">No Topping</option>
-                <option value="">Pepperoni</option>
-                <option value="">Mushrooms</option>
-                <option value="">Onions</option>
-                <option value="">Sausage</option>
-                <option value="">Bacon</option>
-              </select>
-            </div>
-              <div class="col-4">
-              <select name="crust" id="crust" onchange="update()">
-                <option value="0">Choose crust option</option>
-                <option value="0">No crust</option>
-                <option value="100">crispy</option>
-                <option value="">stuffed</option>
-                <option value="">gluten-free</option>
-              </div>
-              </div>
-              </select>
-
-              <div class="row">
-                  <div class="col">
-              <select name="delivery" id="delivery" onchange="update()">
-                <option value="0">Choose Delivery option</option>
-                <option value="0">No delivery</option>
-                <option value="100">Deliver</option>
-              </select>
-            </div>
-          </div>
-
-
-              <div class="row">
-                  <div class="col-4">
-              <table class="table">
-                <tr>
-                  <th>Item</th>
-                  <th>Price</th>
-                </tr>
-                <tr>
-                  <td class="size1">Size</td>
-                  <td class="size2">0</td>
-                </tr>
-                <tr>
-                  <td class="topping1">Topping</td>
-                  <td class="topping2">0</td>
-                </tr>
-                <tr>
-                  <td class="Crust1">crust</td>
-                  <td class="Crust2">0</td>
-                </tr>
-                <tr>
-                  <td class="delivery1">Delivery</td>
-                  <td class="delivery2">0</td>
-                </tr>
-                <tr>
-                  <td class="total1">Total</td>
-                  <td class="total2">0</td>
-                </tr>
-              </table>
-            </div>
-          </div>
-
-
-
-
+      </div>
     </div>
-    <script src="js/script.js"></script>
+
+    <div class="row">
+
+      <div class="col-">
+        <h1>place your order</h1>
+      </div>
+    </div>
+
+
+
+
+    <div class="row">
+
+      <div class="col-4">
+        <select name="size" id="size" onchange="update()">
+          <option value="0">Choose size</option>
+          <option value="500">Small</option>
+          <option value="900">Medium</option>
+          <option value="1200">Large</option>
+        </select>
+      </div>
+      <div class="col-4">
+        <select name="topping" id="topping" onchange="update()">
+          <option value="0">Choose Topping</option>
+          <option value="50"></option>
+          <option value="0">No Topping</option>
+          <option value="70">Pepperoni</option>
+          <option value="80">Mushrooms</option>
+          <option value="90">Onions</option>
+          <option value="100">Sausage</option>
+          <option value="100">Bacon</option>
+        </select>
+      </div>
+      <div class="col-4">
+        <select name="crust" id="crust" onchange="update()">
+          <option value="0">Choose crust option</option>
+          <option value="0">No crust</option>
+          <option value="100">crispy</option>
+          <option value="150">stuffed</option>
+          <option value="200">gluten-free</option>
+
+        </select>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col" id="del">
+        <select name="delivery" id="delivery" onchange="update()">
+          <option value="0">Choose Delivery option</option>
+          <option value="0">No delivery</option>
+          <option value="100">Deliver</option>
+        </select>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col" text-center>
+        <table class="table">
+          <tr>
+            <th>Item</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <td class="size1">Size</td>
+            <td class="size2">0</td>
+          </tr>
+          <tr>
+            <td class="topping1">Topping</td>
+            <td class="topping2">0</td>
+          </tr>
+          <tr>
+            <td class="Crust1">crust</td>
+            <td class="Crust2">0</td>
+          </tr>
+          <tr>
+            <td class="delivery1">Delivery</td>
+            <td class="delivery2">0</td>
+          </tr>
+          <tr>
+            <td class="total1">Total</td>
+            <td class="total2">0</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+
+
+
+  </div>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
