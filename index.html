@@ -23,9 +23,11 @@
                 <p>we have an amazing place to enjoy pizza.
 
                     <h3>ABOUT US</h3>
-                    <p>Welcome to limz Pizza limz Pizza is locally <br>
-                        owned and operated by limooh and tj. we have been in the pizza making business <br>
-                        for over 10 years. You can try some of the best pizza in town or try our famous wet<br>
+                    <p> limz Pizza is locally <br>
+                        owned and operated by limooh and tj.<br>
+                         we have been in the pizza making business <br>
+                        for over 10 years. You can try some of the best<br>
+                         pizza in town or try our famous wet<br>
                         burritos!
 
                         We know you will absolutely love your food and friendly service!
@@ -34,54 +36,49 @@
 
             </div>
         </div>
+        <select name="size" id="size" onchange="update()">
+                <option value="0">Choose size</option>
+                <option value="500">Small</option>
+                <option value="900">Medium</option>
+                <option value="1200">Large</option>
+              </select>
+              <select name="topping" id="topping" onchange="update()">
+                <option value="0">Choose Topping</option>
+                <option value="50">Crust</option>
+                <option value="0">No Topping</option>
+              </select>
+              <select name="delivery" id="delivery" onchange="update()">
+                <option value="0">Choose Delivery option</option>
+                <option value="0">No delivery</option>
+                <option value="100">Deliver</option>
+              </select>
+            
+              <table class="table">
+                <tr>
+                  <th>Item</th>
+                  <th>Price</th>
+                </tr>
+                <tr>
+                  <td class="size1">Size</td>
+                  <td class="size2">0</td>
+                </tr>
+                <tr>
+                  <td class="topping1">Topping</td>
+                  <td class="topping2">0</td>
+                </tr>
+                <tr>
+                  <td class="delivery1">Delivery</td>
+                  <td class="delivery2">0</td>
+                </tr>
+                <tr>
+                  <td class="total1">Total</td>
+                  <td class="total2">0</td>
+                </tr>
+              </table>
+     
 
-        <form>
-            <div class="row">
-                <div class="col-4">
-                    <div id="order">
-                        <hr>
-                        <label for="">Pizza Size:</label>
-                        <select name="" id="" class="form-control">
-                            <option value="">Large</option>
-                            <option value="">Medium</option>
-                            <option value="">Small</option>
-                        </select>
-                    </div>
-                </div>
-                <br>
-                <div class="col-4">
-                    <label for="">Pizza Crust</label>
-                    <select name="" id="" class="form-control">
-                        <option value="">Crispy</option>
-                        <option value="">Stuffed</option>
-                        <option value="">Glutten Free</option>
 
-                    </select>
-                </div>
-                <div class="col-4">
-                    <label for="">Toppings</label>
-                    <select name="" id="" class="form-control">
-                        <option value="Sausage"></option>
-                        <option value="Pepperoni"></option>
-                        <option value="Pepperoni"></option>
-                        <option value="grilled chicken"></option>
-                    </select>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col text-center">
-            <label for="">Get it</label>
-            <select name="" id="" class="form-control">
-                <option value="">Pick Up</option>
-                <option value="">Delivery</option>
-            </select>
-            <button>Place Order</button>
-        </div>
-    </div>
-        </form>
-        <div>
-            <h1>sample of pizza</h1>
-        </div>
+
 
     </div>
     <script src="js/script.js"></script>

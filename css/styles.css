@@ -1,3 +1,14 @@
+body{
+    background-image: url('/home/brian/Documents/limooh/IP4/image/ba.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+
+}
+.container{
+    padding:2px;
+
+}
 #img {
     background-image: url('../image/foot.jpg');
     height: 50%;
@@ -8,3 +19,30 @@
     margin-top: 18%;
     margin-bottom: 8%;;
 }
+select {
+
+    padding: 10px;
+    border: none;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  td,
+  th {
+    text-align: left;
+    width: 300px;
+    max-width: 45%;
+    padding: 10px;
+  } 
+  th{
+    background: rgb(58, 50, 50);
+    color: white;
+  }
+  tr{
+    background: rgb(209, 209, 209);
+  }
+  tr:nth-child(odd){
+    background: rgb(231, 229, 80);
+  }
