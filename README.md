@@ -1,7 +1,7 @@
 
 # pizza 
 
-a project that test what have been learning the whole week
+ Independent Project is to help us practice and understand better the concepts that we have covered throughout this week. These include working with constructors, prototypes, objects, properties, and methods in Javascript as well as using jQuery and DOM manipulation & traversal.
 
 
 ## Authors
@@ -10,7 +10,7 @@ a project that test what have been learning the whole week
 
 
 ## Setup/Installation Requirements
-* Git clone using this link
+* Git clone using this link https://github.com/limobrian/pizza.git
 * cd pizza
 * Open index.html from a browser
 
@@ -38,7 +38,7 @@ Is up todate
 
 
  ## link to live site on GitHub Pages
-
+https://limobrian.github.io/pizza/
 This is the  
 
 ## Technologies Used
