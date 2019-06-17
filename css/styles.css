@@ -1,6 +1,10 @@
-h1{
-text-align: center;
+#img {
+    background-image: url('/home/brian/Documents/limooh/IP4/image/foot.jpg');
+    height: 50%;
+    weight:100%;
+    color: yellowgreen;
 }
-.container{background-image: url('/home/brian/Documents/limooh/IP4/image/red-color.png')}
-
+.h{
+    margin-top: 18%;
+    margin-bottom: 8%;;
 }
