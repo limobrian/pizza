@@ -1,5 +1,5 @@
 body{
-    background-image: url('/home/brian/Documents/limooh/IP4/image/ba.png');
+    background-image: url('./image/ba.png');
     background-size: cover;
     background-repeat: no-repeat;
     color: black;
@@ -54,3 +54,10 @@ select {
   #t{
     margin-left: 32%;
   }
+
+  @media only screen and (max-width: 600px) {
+    #ju{
+    justify-content: space-around; 
+    }
+  }
+  
