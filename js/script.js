@@ -2,7 +2,6 @@ $(document).ready(function () {
     var size;
     var topping;
     var crust;
-    var quantity;
     var totalPrice
     var orderStreet
     $(".img3").click(function () {
@@ -24,7 +23,7 @@ $(document).ready(function () {
         size = parseInt(document.getElementById("size").value);
         topping = parseInt(document.getElementById("topping").value);
         crust = parseInt(document.getElementById("crust").value);
-        quantity = parseInt(document.getElementById("quantity").value);
+        // quantity = parseInt(document.getElementById("quantity").value);
         var smallPrices = [500, 550, 500];
         var standardPrices = [700, 800, 650];
         var largePrice = [900, 1000, 800];

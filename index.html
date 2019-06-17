@@ -8,7 +8,8 @@
     <link rel='icon' href="../image/icon.svg">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 
     <title>limz pizza</title>
 </head>
@@ -33,9 +34,11 @@
 
             </div>
         </div>
-       
 
-                <div id="order">
+        <form>
+            <div class="row">
+                <div class="col-4">
+                    <div id="order">
                         <hr>
                         <label for="">Pizza Size:</label>
                         <select name="" id="" class="form-control">
@@ -43,37 +46,45 @@
                             <option value="">Medium</option>
                             <option value="">Small</option>
                         </select>
-                        <br>
-                        <label for="">Pizza Crust</label>
-                        <select name="" id="" class="form-control">
-                                <option value="">Crispy</option>
-                                <option value="">Stuffed</option>
-                                <option value="">Glutten Free</option>
-                
-                            </select>
-                            <label for="">Toppings</label>
-                            <select name="" id="" class="form-control">
-                                    <option value=""></option>
-                                    <option value=""></option>
-                                    <option value=""></option>
-                                    <option value=""></option>
-                                    <option value=""></option>
-                                    <option value=""></option>
-                                    <option value=""></option>
-                    
-                                </select>
-                                <label for="">Get it</label>
-                                <select name="" id="" class="form-control">
-                                    <option value="">Pick Up</option>
-                                    <option value="" >Delivery</option>
-                                </select>
-                                <button>Place Order</button>
-                                
-                                
                     </div>
+                </div>
+                <br>
+                <div class="col-4">
+                    <label for="">Pizza Crust</label>
+                    <select name="" id="" class="form-control">
+                        <option value="">Crispy</option>
+                        <option value="">Stuffed</option>
+                        <option value="">Glutten Free</option>
 
+                    </select>
+                </div>
+                <div class="col-4">
+                    <label for="">Toppings</label>
+                    <select name="" id="" class="form-control">
+                        <option value="Sausage"></option>
+                        <option value="Pepperoni"></option>
+                        <option value="Pepperoni"></option>
+                        <option value="grilled chicken"></option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+            <label for="">Get it</label>
+            <select name="" id="" class="form-control">
+                <option value="">Pick Up</option>
+                <option value="">Delivery</option>
+            </select>
+            <button>Place Order</button>
+        </div>
+    </div>
+        </form>
+        <div>
+            <h1>sample of pizza</h1>
         </div>
 
+    </div>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
