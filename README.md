@@ -35,6 +35,8 @@ Is up todate
  * this is a project to practices this week work
  * constructors
 * prototype
+* objects
+*
 
 
  ## link to live site on GitHub Pages
