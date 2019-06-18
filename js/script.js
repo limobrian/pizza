@@ -10,7 +10,7 @@ function update() {
   var priceDelivery = delivery.options[delivery.selectedIndex].value;
   var itemDelivery = delivery.options[delivery.selectedIndex].text;
   var pricecrust = crust.options[crust.selectedIndex].value;
-  var itemcrust = crust.options[crust.selectedIndex].text;
+  var itemCrust = crust.options[crust.selectedIndex].text;
   var total = parseInt(priceSize) + parseInt(priceDelivery) + parseInt(priceTopping) + parseInt(pricecrust);
   $(".size1").html(itemSize);
   $(".size2").html(priceSize);
