@@ -57,7 +57,7 @@ select {
   #contact{
     background-image: url('../image/small.jpeg');
     padding: 20px 5px;
-    color: gray;
+    color:black;
   }
   .message{
     padding: 3px 15px;
@@ -87,7 +87,7 @@ select {
     width: 98.8%;
   }
   form input:focus, textarea:focus{
-    background: rgba(0, 0, 0, 0.733);
+    background: rgba(209, 82, 131, 0.733);
     border: transparent;
     transform: scale(1.03);
   }
