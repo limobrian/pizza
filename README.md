@@ -36,7 +36,7 @@ Is up todate
  * constructors
 * prototype
 * objects
-*
+* methods
 
 
  ## link to live site on GitHub Pages
