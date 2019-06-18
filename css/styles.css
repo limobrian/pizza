@@ -55,9 +55,9 @@ select {
     margin-left: 32%;
   }
   #contact{
-    background-image: url('../assets/backgrounds/c_image.jpg');
+    background-image: url('../image/small.jpeg');
     padding: 20px 5px;
-    color: white;
+    color: gray;
   }
   .message{
     padding: 3px 15px;
