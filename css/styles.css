@@ -54,6 +54,55 @@ select {
   #t{
     margin-left: 32%;
   }
+  #contact{
+    background-image: url('../assets/backgrounds/c_image.jpg');
+    padding: 20px 5px;
+    color: white;
+  }
+  .message{
+    padding: 3px 15px;
+    margin: 7px 2px;
+    width: 700px;
+    max-width: 89%;
+  }
+  form{
+    width: 700px;
+    max-width: 90%;
+  }
+  ::placeholder{
+    color: rgb(204, 204, 204);
+  }
+  form input{
+    width:49%;
+  }
+  form input, form textarea{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    transition: all 0.2s ease;
+    padding: 7px;
+  }
+  form textarea{
+    margin-top: 20px;
+    width: 98.8%;
+  }
+  form input:focus, textarea:focus{
+    background: rgba(0, 0, 0, 0.733);
+    border: transparent;
+    transform: scale(1.03);
+  }
+  form input[type=submit]{
+    background: rgba(255, 166, 0, 0.699);
+    font-weight: 300;
+    font-size: 1.6em;
+    padding: 0px;
+    outline: none;
+  }
+  form input[type=submit]:hover{
+    border-radius: 30px;
+    background: rgb(255, 166, 0);
+    outline: none;
+  }
 
   @media only screen and (max-width: 600px) {
     #ju{
