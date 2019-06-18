@@ -92,7 +92,7 @@ select {
     transform: scale(1.03);
   }
   form input[type=submit]{
-    background: rgba(255, 166, 0, 0.699);
+    background: rgba(167, 231, 62, 0.699);
     font-weight: 300;
     font-size: 1.6em;
     padding: 0px;
@@ -100,7 +100,7 @@ select {
   }
   form input[type=submit]:hover{
     border-radius: 30px;
-    background: rgb(255, 166, 0);
+    background: rgb(78, 199, 54);
     outline: none;
   }
 
