@@ -33,9 +33,9 @@ Is up todate
 
 ## BDD
  * this is a project to practices this week work
- * constructors
-* prototype
-* objects
+ * constructors.
+* prototype.
+* objects.
 * methods
 
 
