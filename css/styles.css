@@ -78,7 +78,7 @@ select {
   form input, form textarea{
     background: transparent;
     border: 1px solid white;
-    color: white;
+    color: black;
     transition: all 0.2s ease;
     padding: 7px;
   }

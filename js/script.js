@@ -18,8 +18,8 @@ function update() {
   $(".topping2").html(priceTopping);
   $(".delivery1").html(itemDelivery);
   $(".delivery2").html(priceDelivery);
-  $(".crust1").html(itemDelivery);
-  $(".crust2").html(priceDelivery);
+  $(".crust1").html(itemcrust);
+  $(".crust2").html(pricecrust);
   $(".total1").html("Total");
   $(".total2").html(total);
 }
