@@ -37,7 +37,7 @@ select {
     padding: 10px;
   } 
   th{
-    background: rgb(58, 50, 50);
+    background: rgb(190, 107, 107);
     color: white;
   }
   tr{
@@ -70,7 +70,7 @@ select {
     max-width: 90%;
   }
   ::placeholder{
-    color: rgb(204, 204, 204);
+    color: rgb(16, 238, 201);
   }
   form input{
     width:49%;

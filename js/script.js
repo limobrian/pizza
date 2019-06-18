@@ -10,7 +10,7 @@ function update() {
   var priceDelivery = delivery.options[delivery.selectedIndex].value;
   var itemDelivery = delivery.options[delivery.selectedIndex].text;
   var pricecrust = crust.options[crust.selectedIndex].value;
-  var itemCrust = crust.options[crust.selectedIndex].text;
+  var itemcrust = crust.options[crust.selectedIndex].text;
   var total = parseInt(priceSize) + parseInt(priceDelivery) + parseInt(priceTopping) + parseInt(pricecrust);
   $(".size1").html(itemSize);
   $(".size2").html(priceSize);
@@ -28,7 +28,7 @@ $("#submission").submit(function (event) {
   var data_1 = $("input:first").val();
   var data_2 = $("input#mail").val();
   if (data_1 && data_2 != "") {
-    $(".message").text("Thank you " + data_1 + " Your message has been received total is on total");
+    $(".message").text("Thank you " + data_1 + " Your message has been received TOTAL COST IS ON THE TOTAL");
     $(".message").removeClass("error");
     $(".message").addClass("success");
   } else {
